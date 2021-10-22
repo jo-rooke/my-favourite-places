@@ -14,7 +14,7 @@ function FavPlaceItem(props: FavPlaceItemProps): JSX.Element {
       <h2>
         <strong>{props.placeName}</strong>
       </h2>
-      <img src={props.imgSrc} />
+      <img src={props.imgSrc} alt={props.imgAlt} />
       <h3>
         <strong>
           {props.location} (<a href={props.mapLink}>map link</a>)
